@@ -160,6 +160,7 @@ body {
   display: flex;
   justify-content: center;
   gap: 12px;
+  flex-wrap: wrap;
 }
 
 .social-icon {
@@ -178,20 +179,65 @@ body {
   background: transparent;
 }
 
-.social-icon:nth-child(1):hover {
+.social-icon.github:hover {
   color: #000000;
 }
 
-.social-icon:nth-child(2):hover {
+.social-icon.linkedin:hover {
   color: #0a66c2;
 }
 
-.social-icon:nth-child(3):hover {
+.social-icon.x:hover,
+.social-icon.threads:hover {
   color: #000000;
 }
 
-.social-icon:nth-child(4):hover {
+.social-icon.instagram:hover {
   color: #e4405f;
+}
+
+.social-icon.tiktok:hover {
+  color: #000000;
+}
+
+.social-icon.tumblr:hover {
+  color: #34465d;
+}
+
+.social-icon.mastodon:hover {
+  color: #3088d4;
+}
+
+.social-icon.twitch:hover {
+  color: #9146ff;
+}
+
+.social-icon.stackoverflow:hover {
+  color: #f48024;
+}
+
+.social-icon.pinterest:hover {
+  color: #bd081c;
+}
+
+.social-icon.dribbble:hover {
+  color: #ea4c89;
+}
+
+.social-icon.spotify:hover {
+  color: #1db954;
+}
+
+.social-icon.strava:hover {
+  color: #fc4c02;
+}
+
+.social-icon.youtube:hover {
+  color: #ff0000;
+}
+
+.social-icon.facebook:hover {
+  color: #1877f2;
 }
 
 .footer {
